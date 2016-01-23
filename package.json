@@ -1,0 +1,36 @@
+{
+  "name": "angular-mocha-service-tdd",
+  "version": "1.0.0",
+  "description": "Simple sample of how to work like a boss with node, angular and mocha",
+  "main": "commission.js",
+  "dependencies": {
+    "expect.js": "^0.3.1",
+    "lodash": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha commission.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stewones/angular-mocha-service-tdd.git"
+  },
+  "keywords": [
+    "angular",
+    "mocha",
+    "angular",
+    "service",
+    "tdd",
+    "angular",
+    "test",
+    "test",
+    "driven",
+    "development"
+  ],
+  "author": "Stewan Pacheco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stewones/angular-mocha-service-tdd/issues"
+  },
+  "homepage": "https://github.com/stewones/angular-mocha-service-tdd#readme"
+}
