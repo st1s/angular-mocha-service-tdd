@@ -3,4 +3,4 @@ node_js:
   - "0.12"
 before_script:
   - npm install -g mocha
-script: cd /home/travis/build/stewones/angular-mocha-service-tdd && npm test
+script: npm test
