@@ -1,13 +1,17 @@
-(function () {
+
+//
+// Requires dependencies for node
+//
+if (typeof module !== 'undefined' && module.exports) {
+    var _ = require('lodash');
+}
+(function (_) {
     'use strict';
-    var window = window && window.length ? window : {};
-        
     //
     // @usage
     // var commission = new Commission(options);
     //
     var Commission = function (options) {
-        var _ = window.lodash ? window.lodash : require('lodash');
         //
         // Default rules
         //
@@ -40,7 +44,6 @@
     };
 
     function calc(arg) {
-        var _ = window.lodash ? window.lodash : require('lodash');
         if (_.isArray(arg)) {
             var fee = 0,
                 total = 0;
@@ -64,7 +67,6 @@
     }
 
     function sub(value) {
-        var _ = window.lodash ? window.lodash : require('lodash');
         var fee = 0,
             liquid = value;
         _.each(this.rules, function (plan) {
@@ -96,9 +98,6 @@
     // Browser
     //
     else {
-        angular.module('services').service('Commission', function event(lodash) {
-            window.lodash = lodash;
-            return Commission;
-        });
+        window.Commission = Commission;
     }
-})();
+})(_);

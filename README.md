@@ -1,5 +1,5 @@
 ## Angular Test Driven Development Sample [![Build Status](https://travis-ci.org/stewones/angular-mocha-service-tdd.svg)](https://travis-ci.org/stewones/angular-mocha-service-tdd)
 
-Details on post 
+Details on post [http://stpa.co/angularjs/mocha/2016/01/22/angular-mocha-service-tdd.html](http://stpa.co/angularjs/mocha/2016/01/22/angular-mocha-service-tdd.html)
 
-To run the mocha tests just clone this repo and issue `npm install`, then run `npm test`.
+To run the tests just clone this repo and issue `npm install`, then run `npm test` or `mocha commission.spec.js`.
