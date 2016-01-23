@@ -2,4 +2,4 @@
 
 Details on post 
 
-To run the mocha tests just clone this repo and issue `npm install`, the run `npm test`.
+To run the mocha tests just clone this repo and issue `npm install`, then run `npm test`.
