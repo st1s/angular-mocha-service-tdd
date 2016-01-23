@@ -1,5 +1,5 @@
 var expect = require("expect.js");
-var Commission = require("./Commission");
+var Commission = require("./commission");
 
 describe('Commission Lib', function () {
     var _rules = [{
